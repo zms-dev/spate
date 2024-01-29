@@ -1,11 +1,11 @@
 [package]
-name = "spate-bencode"
+name = "spate-metainfo"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+spate-bencode = { path = "../spate-bencode" }
 anyhow = { workspace = true }
-serde = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+lazy_static = { workspace = true }

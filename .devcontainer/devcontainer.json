@@ -34,15 +34,15 @@
 					"source.organizeImports": true
 				},
 				"rust-analyzer.rustfmt.enableRangeFormatting": true,
-				"rust-analyzer.checkOnSave.overrideCommand": [
-					"cargo",
-					"clippy",
-					"--fix",
-					"--workspace",
-					"--message-format=json",
-					"--all-targets",
-					"--allow-dirty"
-				],
+				// "rust-analyzer.checkOnSave.overrideCommand": [
+				// 	"cargo",
+				// 	"clippy",
+				// 	"--fix",
+				// 	"--workspace",
+				// 	"--message-format=json",
+				// 	"--all-targets",
+				// 	"--allow-dirty"
+				// ],
 				"[rust]": {
 					"editor.defaultFormatter": "rust-lang.rust-analyzer",
 					"editor.formatOnSave": true,
@@ -50,7 +50,9 @@
 				}
 			},
 			"extensions": [
-				"donjayamanne.git-extension-pack"
+				"donjayamanne.git-extension-pack",
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
